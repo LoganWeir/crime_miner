@@ -1,0 +1,41 @@
+{
+  "san_francisco": {
+    "source": "san_francisco",
+    "base_url": "https://data.sfgov.org/resource/cuks-n6tp.json?",
+    "token": "$$app_token=rjpkkDmlDJz0sny6pNscE2Nnx",
+    "location": "location",
+    "fields": {
+      "date": "date",
+      "time": "time",
+      "incident_id": "incidntnum",
+      "description": "descript"
+    },
+    "last_updated": ""
+  },
+  "alameda": {
+    "source": "alameda",
+    "base_url": "http://data.acgov.org/resource/js8f-yfqf.json?",
+    "token": "$$app_token=rjpkkDmlDJz0sny6pNscE2Nnx",
+    "location": "location_1",
+    "fields": {
+      "date": "datetime",
+      "time": "datetime",
+      "incident_id": "crimeid",
+      "description": "crimedescription"
+    },
+    "last_updated": ""
+  },
+  "sonoma": {
+    "source": "sonoma",
+    "base_url": "https://data.sonomacounty.ca.gov/resource/42sf-mpt9.json?",
+    "token": "$$app_token=rjpkkDmlDJz0sny6pNscE2Nnx",
+    "location": "location",
+    "fields": {
+      "date": "date_time",
+      "time": "date_time",
+      "incident_id": "incident_number",
+      "description": "incident_type"
+    },
+    "last_updated": ""
+  }
+}

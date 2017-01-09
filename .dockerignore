@@ -1,0 +1,5 @@
+#no need for output folder
+/output
+
+#ignore DS_Store
+.DS_Store
